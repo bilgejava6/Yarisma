@@ -20,6 +20,8 @@ public class SoruController {
      * değerler null olarak gelir.
      * @CrossOrigin -> gelen isteklerin belli ip lerden yada belirlenen sunuculardan gelmesini istiyorsak kullanırız.
      * kullanılmaz ise tüm istekleri sadece localhost ya da barındığı site içinden alır. diğer istekleri red eder.
+     *
+     * http://localhost/v1/api/soru/soruolustur
      * @param dto
      * @return
      */
